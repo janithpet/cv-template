@@ -1,4 +1,4 @@
-<img width="736" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/4ec1bec6-ceae-4019-be37-91f73fa2b3b4"># Clean CV LateX template
+# Clean CV LateX template
 
 ## Requirements
 ### Building
@@ -65,7 +65,7 @@ In addition to these, it provides a few other `commands`:
 	This gets rendered like:
 	<img width="734" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/4ddefc63-6d38-4d9d-86cd-c92ec9bfaa49">
 
-- A `\highlight` command that provides a unified way of highlighting key words. You can modify the behaviour of `\highlight` in the `cv.cls` file. For example:
+- A `\highlight` command that provides a unified way of highlighting key words. You can modify the behaviour of `\highlight` in the [`cv.cls` file](https://github.com/janithpet/cv-template/blob/bbb77f02dd24e43f5491f35aa2143d3a612ba0b8/cv.cls#L93). For example:
 	```latex
 	 I did some \highlight{programming}.
 	```
@@ -81,4 +81,4 @@ In addition to these, it provides a few other `commands`:
 	<img width="155" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/cbbfa154-d4e9-48ee-bd08-dca96bda48e9">
 
 ## TODO
-- Currently, the accent color needs to be set inside of `cv.cls`. This should be made configurable from the `cv.tex` file.
+- Currently, the accent color needs to be set inside of `cv.cls`. This should be made configurable from the [`cv.tex`](https://github.com/janithpet/cv-template/blob/bbb77f02dd24e43f5491f35aa2143d3a612ba0b8/cv.cls#L19) file.
