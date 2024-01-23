@@ -1,0 +1,25 @@
+\documentclass[]{cv}
+
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+
+\setlength{\headheight}{3.5\baselineskip}%
+
+\begin{document}
+
+\begin{center}
+	\color{accent}
+	\LARGE\textbf{Title}
+\end{center}
+\hfill
+\makefield{\faEnvelope}{\href{mailto:example@email.com}{\texttt{example@email.com}}}\hfill
+\makefield{\faGithub}{\href{https://github.com}{\texttt{Github Username}}}\hfill
+\makefield{\faInstagram}{\href{https://instagram.com}{\texttt{Instagram}}}\hfill
+\makefield{\faMapMarker}{ProgrammerVille, ProgrammerLand}\hfill
+% you can add other examples here
+
+
+\input{src/entrylist}
+\input{src/flatlist}
+\input{src/multicolumnlist}
+\end{document}
