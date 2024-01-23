@@ -58,6 +58,7 @@ In general, it provides 3 environments to your details:
 
 
 In addition to these, it provides a few other `commands`:
+-  The `\section` command now takes 2 arguments. The first argument can be used to put an icon, and can be kept empty. The example `cv.tex` uses the package `fontawesome5`. The second argument is the Section title.
 -  A `\makefield` command that creates the social links seen below the Title. You can keep adding them with `\hfills`. For example:
   	```latex
   	\hfill
