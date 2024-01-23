@@ -58,8 +58,18 @@ In general, it provides 3 environments to your details:
 
 
 In addition to these, it provides a few other `commands`:
--  An `items` list environment that can be used inside the `Description` argument of an `\entry` environment. For example
-	For example:
+-  A `\makefield` command that creates the social links seen below the Title. You can keep adding them with `\hfills`. For example:
+  	```latex
+  	\hfill
+	\makefield{\faEnvelope}{\href{mailto:example@email.com}{\texttt{example@email.com}}}\hfill
+	\makefield{\faGithub}{\href{https://github.com}{\texttt{Github Username}}}\hfill
+	\makefield{\faInstagram}{\href{https://instagram.com}{\texttt{Instagram}}}\hfill
+	\makefield{\faMapMarker}{ProgrammerVille, ProgrammerLand}\hfill
+	```
+	This is rendered as:
+	<img width="808" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/7b1c8815-a296-4857-b67c-e86777b97cf5">
+
+-  An `items` list environment that can be used inside the `Description` argument of an `\entry` environment. For example:
 	```latex
 	\begin{items}
 		\item This is an \emph{items} item.
