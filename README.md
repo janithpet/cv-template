@@ -68,3 +68,6 @@ In addition to these, it provides a few other `commands`:
 	\link{your link}{your text}
 	```
 	This gets rendered like:
+
+## TODO
+- Currently, the accent color needs to be set inside of `cv.cls`. This should be made configurable from the `cv.tex` file.
