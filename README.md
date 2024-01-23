@@ -1,5 +1,9 @@
 # Clean CV LateX template
 
+## Example
+You can clone this repository and build `cv.tex` using `LuaLateK` to see an example. This should look like:
+<img width="555" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/06239318-9bc3-48a2-97da-ae2dc40e2548">
+
 ## Requirements
 ### Building
 This template builds using `luaLaTeX`.
@@ -79,12 +83,6 @@ In addition to these, it provides a few other `commands`:
 	```
 	This gets rendered like:
 	<img width="155" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/cbbfa154-d4e9-48ee-bd08-dca96bda48e9">
-
-## Example
-You can clone this repository and build `cv.tex` using `LuaLateK` to see an example. This should look like:
-<img width="555" alt="image" src="https://github.com/janithpet/cv-template/assets/22471198/06239318-9bc3-48a2-97da-ae2dc40e2548">
-
-
 
 ## TODO
 - Currently, the accent color needs to be set inside of `cv.cls`. This should be made configurable from the [`cv.tex`](https://github.com/janithpet/cv-template/blob/bbb77f02dd24e43f5491f35aa2143d3a612ba0b8/cv.cls#L19) file.
